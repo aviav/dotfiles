@@ -110,8 +110,8 @@ PATH=$PATH:$HOME/.local/bin
 # Load tmuxinator if installed
 [[ -s $HOME/.tmuxinator/scripts/tmuxinator ]] && source $HOME/.tmuxinator/scripts/tmuxinator ]]
 
-# Set default editor to vim
-EDITOR=vim
+# Set default editor to emacs
+EDITOR=emacs
 
 # Set TERM to use 256 colors if set to xterm
 [[ "x$TERM" == "xxterm" ]] && TERM="xterm-256color"
