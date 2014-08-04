@@ -20,6 +20,18 @@ Please note that this Rakefile is written for Ubuntu systems.
 If you are on another OS, look at the output of `rake -T`
 and use the `install:*` tasks manually.
 
+### Example: Installation of zsh config on Arch Linux for use with the Liberation Mono font
+
+```bash
+cd ~/.local
+git clone https://github.com/mbreit/dotfiles.git
+cd dotfiles
+rake install:zsh
+rake submodules:install
+```
+
+Then install `ttf-liberation-mono-powerline-git` from the Arch User Repository.
+
 ## Update
 
 You can update the dotfiles repository and all
