@@ -27,7 +27,7 @@ cd ~/.local
 git clone https://github.com/mbreit/dotfiles.git
 cd dotfiles
 rake install:zsh
-rake submodules:install
+rake submodules:init
 ```
 
 Then install `ttf-liberation-mono-powerline-git` from the Arch User Repository.
